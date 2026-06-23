@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+
+<title>HTML5 Resume that Includes Schema.org Microdata | Tutorial Demo</title>
+
+<!-- Meta -->
+<meta name="description" content="Demo for tutorial about creating HTML5 resume that includes Schema.org Microdata. Demo is a custom designed HTML5 resume template that you are free to use for your online resume!">
+<meta name="keywords" content="web,developer,designer,resume,html5,schema,microdata" />
+<meta name="author" content="Janet Wagner">
+
+<!-- CSS Stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+<!-- Begin Wrapper -->
+<div id="wrapper">
+
+<!-- Begin Content Area -->
+<div id="content">
+
+<!-- Begin Header -->
+<header>
+
+<!-- Begin Contact Section -->
+<section id="contact-details">
+<div itemscope itemtype="http://schema.org/Person">
+
+<!-- Begin Profile Image Section -->
+<div class="header_1">
+<img src="images/profile.jpg" itemprop="image" width="250" height="250" alt="Your Name" />
+</div>
+<!-- End Profile Image Section -->
+
+<!-- Begin Profile Information Section -->
+<div class="header_2">
+
+<h1><span itemprop="name">Jose Ignacio Hernandez Villafuerte</span></h1>
+<h3><span itemprop="jobTitle">Desarrollador y Técnico en Redes</span></h3>
+
+<!-- Begin PostalAddress Schema -->
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<ul class="info_1">
+<li class="address"><span itemprop="addressLocality">Salamanca</span>, <span itemprop="addressRegion">Guanajuato</span>, <span itemprop="postalCode">36884</span>  <span itemprop="addressCountry">México</span></li>
+</ul>
+</div>
+<!-- End PostalAddress Schema -->
+
+<ul class="info_2">
+<li class="email"><a href="mailto:hjoseignacio@proton.me" itemprop="email">hjoseignacio@proton.me</a></li>
+<li class="linkedin"><a rel="me" itemprop="url" href="www.linkedin.com/in/jose-ignacio-hernandez-villafuerte-3242a0159" title="www.your-website.com">Pagina de Linkedin</a></li>
+</ul>
+
+</div>
+<!-- End Profile Information Section -->
+
+</div>
+</section>
+<!-- End Contact Section -->
+
+</header>
+<!-- End Header -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Profile Section -->
+<dl>
+<dt>Perfil Profesional:</dt>
+<dd>
+
+<section class="summary">
+Ingeniero en Sistemas Computacionales con 5 años de experiencia en desarrollo de software en Visual Basic .Net y desarrollo web, además de bases sólidas en administración de redes o soporte técnico. Con la mentalidad en la optimización de procesos mediante soluciones tecnológicas y con capacidad para la resolución de problemas. Siempre comprometido con la actualización constante y la eficiencia operativa.
+</section>
+
+</dd>
+</dl>
+<!-- End Profile Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Skills Section -->
+<div itemscope itemtype="http://schema.org/ItemList">
+
+<dl>
+<dt itemprop="name">Habilidades:</dt>
+<dd>
+
+<!--<section id="skills">-->
+<!--<ul class="list1">-->
+<section>
+<ul>
+<li>Lenguajes de escritorio: Visual Basic .Net</li>
+<li>Desarrollo web: HTML, CSS, JavaScript, PHP</li>
+<li>Bases de Datos: MySQL, SQL Server</li>
+<li>Infraestructura: Soporte técnico y Cableado de red</li>
+<li>Sistemas Operativos: Windows, Linux (Ubuntu)</li>
+<li>Sistemas de Versiones: Git y GitHub</li>
+</ul>
+</section>
+
+</dd>
+</dl>
+
+</div>
+<!-- End Skills Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Experience Section -->
+<dl>
+<dt>Experience:</dt>
+
+<dd>
+
+<section id="experience">
+
+<!-- Position #1 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2 class="top"><span itemprop="jobTitle">Desarrollador en .net (Visual Basic)</span></h2>
+<p class="bus1"><span itemprop="name">La Moderna</span></p>
+<p class="time">Diciembre 2021 &#45; Actualidad</p>
+
+<p itemprop="description">
+Desarrollo de software dedicado a la recolección de granos
+Desarrollo de software dedicado a la obtención del pesaje de camiones de carga
+Administración y mantenimiento bases de datos SQL
+</p>
+
+</div>
+ 
+<!-- Position #2 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2><span itemprop="jobTitle">Tecnico en Redes y Soporte</span></h2>
+<p class="bus1"><span itemprop="name">Harinera Los Pirineos</span></p>
+<p class="time">Mayo 2015 &#45; Noviembre 2021</p>
+
+<p itemprop="description">
+Soporte y ademinitracion de redes, CCTV y telefonia IP.
+Soporte al usuario en paqueteria de oficina y sistemas operativos.
+Soporte y mantinimiento de impresoras y equipos de computo.
+</p>
+
+</div>
+
+</section>
+
+</dd>
+</dl>
+
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Education Section -->
+<dl>
+<dt>Educación:</dt>
+<dd>
+
+<section id="education">
+<div itemscope itemtype="http://schema.org/EducationalOrganization">
+
+<p class="bus1"><span itemprop="name">Universidad de Guanajuato</span></p>
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">Campus Irapuato-Salamanca</span>
+<br />
+<span itemprop="addressLocality">Salamanca</span>, <span itemprop="addressRegion">Guanajuato</span>, <span itemprop="postalCode">36700</span>  <span itemprop="addressCountry">México</span>
+</div>
+
+<p class="summary"><span itemprop="name">Ingeniería en Sistemas Computacionales</span></p>
+<p class="time">2010 &#45; 2014</p>
+
+</div>
+<br /> 
+<div itemscope itemtype="http://schema.org/EducationalOrganization">
+
+<p class="bus1"><span itemprop="name">CETIS 62</span></p>
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">direccion@cetis62.edu.mx</span>
+<br />
+<span itemprop="addressLocality">Salamanca</span>, <span itemprop="addressRegion">Guanajuato</span>, <span itemprop="postalCode">36700</span>  <span itemprop="addressCountry">México</span>
+</div>
+
+<p class="summary"><span itemprop="name">Tecnico en Informatica</span></p>
+<p class="time">2007 &#45; 2010</p>
+
+</div>
+</section>
+
+</dd>
+</dl>
+<!-- End Education Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Footer -->
+<footer id="footer">
+
+<!-- Begin Footer Content -->
+<div class="footer_content">
+
+<!-- Begin Social Media and Download Links -->
+<div itemscope itemtype="http://schema.org/Person">
+
+
+<a href="resume.pdf" title="Download Resume PDF">Descargar Curriculum<img src="images/download.png" width="48" height="48" alt="Download Resume PDF" /></a>
+
+
+</div>
+<!-- End Social Media and Download Links -->
+
+</div>
+<!-- End Footer Content -->
+
+
+
+</footer>
+<!-- End Footer -->
+
+</div>
+<!-- End Content -->
+
+</div>
+<!-- End Wrapper -->
+
+</body>
+</html>
